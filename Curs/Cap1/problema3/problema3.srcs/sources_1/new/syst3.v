@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 03/10/2022 12:47:24 PM
+// Create Date: 03/10/2022 02:45:36 PM
 // Design Name: 
-// Module Name: fullAdder
+// Module Name: syst3
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,14 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module fullAdder(   output [3:0]    out,
-                    output          crOut,
-                    input  [3:0]    in0,
-                    input  [3:0]    in1,
-                    input           crIn);
-                     
-    wire    [4:0]   sum;
-    assign sum = in0 + in1 + crIn;
-    assign out = sum[3:0];
-    assign crOut = sum[4];     
+module syst3(   input [7:0] in,
+                output  [7:0] out
+
+    );
 endmodule
