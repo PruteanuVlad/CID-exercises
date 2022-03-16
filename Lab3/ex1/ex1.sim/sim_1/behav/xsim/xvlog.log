@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/student/ex1/ex1.srcs/sources_1/new/mux_v0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_v0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/student/ex1/ex1.srcs/sources_1/new/mux_v1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_v1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/student/ex1/ex1.srcs/sources_1/new/mux_v2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_v2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/student/ex1/ex1.srcs/sources_1/new/mux_v3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_v3
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/student/ex1/ex1.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/student/ex1/ex1.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb

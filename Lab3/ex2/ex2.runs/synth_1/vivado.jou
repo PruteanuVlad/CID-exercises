@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 15 12:30:36 2022
+# Process ID: 256710
+# Current directory: /home/student/ex2/ex2.runs/synth_1
+# Command line: vivado -log mux4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux4.tcl
+# Log file: /home/student/ex2/ex2.runs/synth_1/mux4.vds
+# Journal file: /home/student/ex2/ex2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mux4.tcl -notrace
