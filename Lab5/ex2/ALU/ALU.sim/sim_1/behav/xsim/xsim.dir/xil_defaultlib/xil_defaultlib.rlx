@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.sim/sim_1/behav/xsim/glbl.v,1648734752,verilog,,,,glbl,,,,,,,,
+C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sim_1/new/top_tb.v,1648734752,verilog,,,,top_tb,,,,,,,,
+C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/add.v,1648734752,verilog,,C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/comp_eq.v,,add,,,,,,,,
+C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/comp_eq.v,1648734752,verilog,,C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/demux4.v,,comp_eq,,,,,,,,
+C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/demux4.v,1648734752,verilog,,C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/mux4.v,,demux4,,,,,,,,
+C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/mux4.v,1648734752,verilog,,C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/special.v,,mux4,,,,,,,,
+C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/special.v,1648734752,verilog,,C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/top.v,,special,,,,,,,,
+C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sources_1/new/top.v,1648734752,verilog,,C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex2/ALU/ALU.srcs/sim_1/new/top_tb.v,,top,,,,,,,,

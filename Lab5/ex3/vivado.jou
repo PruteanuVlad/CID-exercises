@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 31 18:16:05 2022
+# Process ID: 23336
+# Current directory: C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12924 C:\Users\vlad.pruteanu\Desktop\CID\Lab5\ex3\ex3.xpr
+# Log file: C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/vivado.log
+# Journal file: C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/ex3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/top_tb_behav.wcfg
+source top_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/top_tb_behav.wcfg
+source top_tb.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/top_tb_behav.wcfg
+source top_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/top_tb_behav.wcfg
+source top_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property package_pin "" [get_ports [list  {data[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data[3]} {data[2]} {data[1]} {data[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data[3]} {data[2]} {data[1]} {data[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data[3]} {data[2]} {data[1]} {data[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {sel[1]} {sel[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list in0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list in1]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list in2]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list in3]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list out0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list out1]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list out2]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list out3]]
+place_ports in0 D19
+place_ports in1 D20
+file mkdir C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/ex3.srcs/constrs_1/new
+close [ open C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/ex3.srcs/constrs_1/new/muxes.xdc w ]
+add_files -fileset constrs_1 C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/ex3.srcs/constrs_1/new/muxes.xdc
+set_property target_constrs_file C:/Users/vlad.pruteanu/Desktop/CID/Lab5/ex3/ex3.srcs/constrs_1/new/muxes.xdc [current_fileset -constrset]
+save_constraints -force
+place_ports in2 L20
+place_ports in3 L19
+save_constraints
+set_property package_pin "" [get_ports [list  {sel[1]}]]
+place_ports {sel[0]} M20
+place_ports {sel[1]} M19
+save_constraints
+set_property package_pin "" [get_ports [list  out0]]
+place_ports out0 R14
+place_ports out1 P14
+place_ports out2 N16
+set_property package_pin "" [get_ports [list  out3]]
+place_ports out3 M14
+save_constraints
+close_sim

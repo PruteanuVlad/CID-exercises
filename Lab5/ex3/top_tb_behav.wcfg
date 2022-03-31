@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="77041fs"></ZoomEndTime>
+      <Cursor1Time time="17120fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">dut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/dut/in0" type="logic">
+         <obj_property name="ElementShortName">in0</obj_property>
+         <obj_property name="ObjectShortName">in0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/in1" type="logic">
+         <obj_property name="ElementShortName">in1</obj_property>
+         <obj_property name="ObjectShortName">in1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/in2" type="logic">
+         <obj_property name="ElementShortName">in2</obj_property>
+         <obj_property name="ObjectShortName">in2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/in3" type="logic">
+         <obj_property name="ElementShortName">in3</obj_property>
+         <obj_property name="ObjectShortName">in3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/sel" type="array">
+         <obj_property name="ElementShortName">sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/data" type="array">
+         <obj_property name="ElementShortName">data[3:0]</obj_property>
+         <obj_property name="ObjectShortName">data[3:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/out0" type="logic">
+         <obj_property name="ElementShortName">out0</obj_property>
+         <obj_property name="ObjectShortName">out0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/out1" type="logic">
+         <obj_property name="ElementShortName">out1</obj_property>
+         <obj_property name="ObjectShortName">out1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/out2" type="logic">
+         <obj_property name="ElementShortName">out2</obj_property>
+         <obj_property name="ObjectShortName">out2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/out3" type="logic">
+         <obj_property name="ElementShortName">out3</obj_property>
+         <obj_property name="ObjectShortName">out3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/mux4_0_out" type="logic">
+         <obj_property name="ElementShortName">mux4_0_out</obj_property>
+         <obj_property name="ObjectShortName">mux4_0_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/parity_calc_0_out" type="logic">
+         <obj_property name="ElementShortName">parity_calc_0_out</obj_property>
+         <obj_property name="ObjectShortName">parity_calc_0_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dut/mux2_2b_0_out" type="logic">
+         <obj_property name="ElementShortName">mux2_2b_0_out</obj_property>
+         <obj_property name="ObjectShortName">mux2_2b_0_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">top_tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/in0" type="logic">
+         <obj_property name="ElementShortName">in0</obj_property>
+         <obj_property name="ObjectShortName">in0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/in1" type="logic">
+         <obj_property name="ElementShortName">in1</obj_property>
+         <obj_property name="ObjectShortName">in1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/in2" type="logic">
+         <obj_property name="ElementShortName">in2</obj_property>
+         <obj_property name="ObjectShortName">in2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/in3" type="logic">
+         <obj_property name="ElementShortName">in3</obj_property>
+         <obj_property name="ObjectShortName">in3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/sel" type="array">
+         <obj_property name="ElementShortName">sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/data" type="array">
+         <obj_property name="ElementShortName">data[3:0]</obj_property>
+         <obj_property name="ObjectShortName">data[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/out0" type="logic">
+         <obj_property name="ElementShortName">out0</obj_property>
+         <obj_property name="ObjectShortName">out0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/out1" type="logic">
+         <obj_property name="ElementShortName">out1</obj_property>
+         <obj_property name="ObjectShortName">out1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/out2" type="logic">
+         <obj_property name="ElementShortName">out2</obj_property>
+         <obj_property name="ObjectShortName">out2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/out3" type="logic">
+         <obj_property name="ElementShortName">out3</obj_property>
+         <obj_property name="ObjectShortName">out3</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
